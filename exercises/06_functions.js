@@ -10,7 +10,7 @@ console.log(aSum)
 // b)A la función suma anterior, agregarle una validación para controlar si alguno de los parámetros no es un número, 
 //mostrar una alerta aclarando que uno de los parámetros tiene error y retornar el valor NaN como resultado.
 function numSum(num1,num2){
-    if(typeof num1 == 'number' & typeof num2 == 'number'){
+    if(typeof num1 == 'number' && typeof num2 == 'number'){
         var result = num1 + num2;
         return result;
     } else {
@@ -33,7 +33,7 @@ console.log(checkInt(23))
 // d)A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean enteros. 
 //En caso que haya decimales mostrar un alerta con el error y retorna el número convertido a entero (redondeado).
 function numSum(num1,num2){
-    if(typeof num1 == 'number' & typeof num2 == 'number'){
+    if(typeof num1 == 'number' && typeof num2 == 'number'){
         if(!checkInt(num1)){
             alert("first number is not an integer")
             var result = Math.round(num1);
